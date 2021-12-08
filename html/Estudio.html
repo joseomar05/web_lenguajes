@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Alquiler Estudio Classic Agency</title>
+    <meta charset="utf-8">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+
+</head>
+<body>
+
+    <header>
+        <a href="../Indice.html"><img src="../jpg/Logotipo.png" alt="Logotipo Classic Agency" id="logo"></a>
+    </header>
+
+    <nav id="barraMenu">
+        <ul>
+            <li><a href="../Indice.html" title="Inicio"> Inicio</a></li>
+            <li><a href="Trabajos.html" title="Trabajos"> Trabajos</a></li>
+            <li><a href="Fotografos.html" title="Fotografos"> Fotografos</a></li>
+            <li><a href="Modelos.html" title="Modelos"> Modelos</a></li>
+            <li><a href="Estudio.html" title="Modelos"> Estudio Fotografico</a></li>
+            <li><a href="Contacto.html" title="Contacto"> Contacto</a></li>
+        </ul>
+    </nav>
+
+
+    <h1 id="TituloEstudio"> ALQUILA NUESTRO ESTUDIO</h1>
+    <p>Disponemos de un magnifico estudio totalmente equipado y al servicio de todos aquellos profesionales o particulares que necesiten un espacio adecuado y cómodo donde realizar sus propios proyectos. Cuenta con distintos sets repartidos en una superficie útil de más de 60m². Hay disponibles fondos fijos de distintos colores y texturas y fondos desplegables, fijos y móviles, para cubrir las necesidades de cualquier proyecto.</p>
+
+    <section id="tarifas">
+    <h2>Posibilidades de Alquiler</h2>
+        <table>
+            <tr >
+                <td><img src="../jpg/alq_horas.png" alt="Icono Alquiler Horas"></td>
+                <td><img src="../jpg/alq_dias.png" alt="Icono Alquiler Jornadas"></td>
+                <td><img src="../jpg/alq_jornada.png" alt="Icono Alquiler SEMANAS"></td>
+            </tr>
+            <tr>
+                <td class="Alquiler">AQUILER POR HORAS</td>
+                <td class="Alquiler">ALQUILER POR JORNADAS</td>
+                <td class="Alquiler">ALQUILER POR SEMANAS</td>
+            </tr>
+            <tr>
+                <td>Ofrecemos la posibilidad de alquilar los distintos sets de fotografía y video por horas, adaptándolo así a tus necesidades.</td>
+                <td>Si tu proyecto requiere más tiempo, puedes disponer de los distintos sets por media jornada o jornada completa.</td>
+                <td>Ofrecemos bonos para profesionales que necesiten un espacio donde realizar sus proyectos durante varias sesiones.</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="Contacto">
+        <h2>CONTACTA CON NOSOTROS</h2>
+        <form name="form" action="Respuesta.html" method="get">
+            <fieldset>
+                <label>Nombre:
+                    <input type="text" name="nombre" placeholder="Introduce tu nombre aquí">
+                </label>
+
+                <br>
+
+                <label>Edad:
+                    <input type="number" name="edad" placeholder="Introduce tu edad aquí">
+                </label>
+
+                <br>
+
+                <label>e-mail:
+                    <input type="email" name="email" placeholder="Introduce tu e-mail aquí">
+                </label>
+
+                <br>
+
+                <label> Tipo de Alquiler:</label>
+                <br>
+                <input  type="radio" name="alquiler" value="porHoras">
+                <label>Por horas</label> 
+
+
+                <input type="radio" name="alquiler" value="porDia">
+                <label>Por dia</label>
+
+                <input type="radio" name="alquiler" value="porSemanas">
+                <label>Por semanas</label>
+
+
+                <br>
+                <label>Comentanos la fecha seleccionada y en la mayor brevedad nos pondremos en contacto contigo 
+                    <br>
+                    <textarea name="comentarios" cols="100"> Haz tus comentarios aquí</textarea>
+                </label>
+
+            </fieldset>  
+
+
+            <fieldset>
+                <legend>Condiciones</legend>
+
+                <label>
+                    <input type="checkbox" checked name="informacion" value="info">
+                    Deseo recibir informacion sobre novedades y ofertas
+                </label>  
+
+                <br>
+
+
+                <label>
+                    <input type="checkbox"  name="condiciones" value="aceptar">
+                    Declaro haber leido y aceptar las condiciones 
+                    generales del programa y la normativa  sobre proteccion de datos
+                </label>  
+
+                <br>
+
+                <input type="submit" value="Enviar" >
+                <input type="reset" value="Borrar">
+            </fieldset>
+        </form>
+    </section>
+
+    <footer id="pieAlquilerEstudio">
+        <p>Jose Omar Ramirez Climent 1º DAM B</p>
+    </footer>
+    
+</body>
+</html>
